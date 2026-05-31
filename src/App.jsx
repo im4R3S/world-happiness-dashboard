@@ -4,9 +4,11 @@ function App() {
   return (
     <main className="app">
       <h1>World Happiness Dashboard</h1>
-      <p>
-        A React dashboard to explore the 2019 World Happiness dataset.
-      </p>
+      <p>Explore the World Happiness Report 2019 dataset.</p>
+
+      <section>
+        Dashboard coming soon...
+      </section>
     </main>
   )
 }

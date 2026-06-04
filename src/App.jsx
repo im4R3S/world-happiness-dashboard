@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { loadData } from './utils/loadData'
+import CountryTable from './components/CountryTable'
 import './App.css'
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
     <main className="app">
       <h1>World Happiness Dashboard</h1>
 
-      <p>Countries loaded: {countries.length}</p>
+      <p>{countries.length} countries loaded</p>
+      <CountryTable countries={countries} />
     </main>
   )
 }

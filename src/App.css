@@ -1,20 +1,47 @@
 .app {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  text-align: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 56px 24px;
 }
 
 .app h1 {
-  margin: 0;
-  font-size: 3rem;
+  margin: 0 0 8px;
+  font-size: 3.2rem;
+  line-height: 1.1;
+  text-align: center;
 }
 
 .app p {
-  margin: 0;
-  max-width: 600px;
-  font-size: 1.2rem;
+  margin: 0 0 32px;
+  text-align: center;
+  color: #aaa;
+  font-size: 1.1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #1c1d24;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 14px 18px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+th {
+  color: #ddd;
+  font-weight: 700;
+}
+
+td {
+  color: #aaa;
+}
+
+tr:hover {
+  background: rgba(255, 255, 255, 0.04);
 }

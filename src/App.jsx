@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { loadData } from './utils/loadData'
 import CountryTable from './components/CountryTable'
+import SummaryCards from './components/SummaryCards'
 import './App.css'
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
       <h1>World Happiness Dashboard</h1>
 
       <p>{countries.length} countries loaded</p>
+
+      <SummaryCards countries={countries} />
       <CountryTable countries={countries} />
     </main>
   )
